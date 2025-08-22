@@ -1,70 +1,87 @@
-Sales Report Dashboard
+📊 Sales Report Dashboard
+📌 Overview
 
-An interactive Power BI dashboard designed to analyze and visualize sales data, enabling business stakeholders to track performance, identify trends, and make data-driven decisions. 
-GitHub
+This project presents an interactive Power BI dashboard built to analyze sales data and uncover meaningful business insights. The dashboard enables tracking of sales, profit, and quantity performance, highlights top products and customers, and provides a clear view of trends across regions, categories, and time periods.
 
-Features
+🎯 Project Objectives
 
-Overview of Total Sales, Profit, and Quantity metrics
+Clean and preprocess sales data (handle missing values, ensure consistency).
 
-Breakdown of Sales by Region, State, and Category
+Build interactive Power BI visuals for sales and profitability insights.
 
-Highlights of Top Customers and Top Products
+Provide drill-down and drill-through options for detailed analysis.
 
-Yearly and Monthly Sales Trends
+Enable decision-making support with KPIs and performance comparisons.
 
-Profitability Analysis for granular insights
+Create a user-friendly interface with filters and slicers for better exploration.
 
-Interactive elements such as filters, slicers, drill-through, and drill-down capabilities
+📂 Dataset
 
-Automated refresh support (when using live data connections)
+The dataset includes sales transactions containing fields such as:
 
-User-friendly layout with charts, maps, and KPI visualizations 
-GitHub
+Order ID, Customer ID, Product, Category
 
-Tools & Technologies
+Sales, Profit, Quantity, Discount
 
-Power BI Desktop for dashboard creation
+Region, State, Ship Mode, Date
 
-Data Preparation via Power Query
+Format: Excel/CSV
 
-DAX (Data Analysis Expressions) for custom metrics and calculations
+Total records: ~1000+ entries
 
-Dataset Format: CSV or Excel files 
-GitHub
+🛠 Tools & Technologies
 
-File Structure
+Power BI Desktop – Dashboard creation and visualization
+
+Power Query – Data cleaning and preprocessing
+
+DAX (Data Analysis Expressions) – For calculated fields and KPIs
+
+Excel / CSV – Source dataset
+
+📊 Dashboard Features
+
+KPI Cards: Total Sales, Profit, Quantity
+
+Sales Trend Analysis: Yearly & Monthly breakdown
+
+Regional & State Analysis: Sales distribution with maps
+
+Category & Sub-Category Insights: Performance of products
+
+Top N Analysis: Best customers and most profitable products
+
+Profitability Analysis: Identifying high/low margin areas
+
+Interactivity: Slicers for time, region, and category with drill-through functionality
+
+📈 Key Insights from Analysis
+
+Top-performing regions and states identified.
+
+Certain product categories drive the majority of profit.
+
+Seasonal sales trends show clear peaks and dips.
+
+Customer segmentation reveals the most valuable clients.
+
+🚀 How to Use
+
+Open the Sales_Report_Dashboard.pbix file in Power BI Desktop.
+
+Ensure the dataset (Sales_Data.xlsx) is loaded correctly.
+
+Explore visuals using slicers (time, region, category).
+
+Use drill-down and drill-through options for detailed analysis.
+
+Export insights into PDF/PowerPoint for reporting.
+
+📌 File Structure
 ├── Sales_Report_Dashboard.pbix     # Power BI Dashboard file  
 ├── Sales_Data.xlsx                 # Dataset used in the project  
 └── README.md                       # Project documentation  
-``` :contentReference[oaicite:3]{index=3}
 
-##  How to Use
+📷 Sample Dashboard Preview
 
-1. Open the `Sales_Report_Dashboard.pbix` file in **Power BI Desktop**.  
-2. Load the `Sales_Data.xlsx` dataset if it's not embedded.  
-3. Use filters and slicers to interact with the visuals.  
-4. Drill into charts using the drill-down and drill-through features for detailed insights.  
-5. Optionally export visuals or reports for sharing and presentations. :contentReference[oaicite:4]{index=4}
-
-##  Key Insights from the Dashboard
-
-- Pinpoint **top-performing products** and **top customers**  
-- Monitor **regional performance** to uncover growth opportunities  
-- Track **profit trends** across different categories  
-- Enable **better decision-making** with real-time insights and data visualization :contentReference[oaicite:5]{index=5}
-
----
-
-### Optional Additions (Suggestions)
-
-If you'd like, you could enhance the README further by adding:
-
-- Screenshots or brief GIFs of the dashboard in action  
-- Requirements and version details (e.g., which version of Power BI Desktop is compatible)  
-- Instructions for connecting to live data sources or refreshing data  
-- Areas of future improvement or known limitations  
-- Any usage or licensing instructions
-
-Let me know if you'd like help expanding this README or tailoring it with screenshots or additional content!
-::contentReference[oaicite:6]{index=6}
+<img width="1264" height="710" alt="image" src="https://github.com/user-attachments/assets/f3799feb-4bcf-40a0-ac46-01636cfca2e8" />
