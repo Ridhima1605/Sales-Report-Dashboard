@@ -1,5 +1,5 @@
-Sales Report Dashboard
-📊 Project Overview
+**Sales Report Dashboard**
+**📊 Project Overview**
 
 This Sales Report Dashboard is an interactive Power BI dashboard built to analyze and visualize sales data. It helps business stakeholders track performance, identify trends, and make data-driven decisions.
 
@@ -15,7 +15,7 @@ Yearly / Monthly Sales Trends
 
 Profitability Analysis
 
-🚀 Features
+**🚀 Features**
 
 Dynamic filters and slicers for easy data exploration
 
@@ -27,7 +27,7 @@ User-friendly layout for better readability
 
 Automated refresh support when connected to live data
 
-🛠️ Tools & Technologies
+**🛠️ Tools & Technologies**
 
 Power BI Desktop
 
@@ -37,12 +37,12 @@ Data Cleaning & Transformation using Power Query
 
 DAX (Data Analysis Expressions) for custom calculations
 
-📂 File Structure
+**📂 File Structure**
 ├── Sales_Report_Dashboard.pbix   # Power BI dashboard file  
 ├── Sales_Data.xlsx                # Dataset used  
 └── README.md                      # Project documentation  
 
-⚡ How to Use
+**⚡ How to Use**
 
 Open Sales_Report_Dashboard.pbix in Power BI Desktop.
 
@@ -52,7 +52,7 @@ Interact with the dashboard using filters, slicers, and drill-downs.
 
 Export insights or generate a report for presentations.
 
-📌 Key Insights
+**📌 Key Insights**
 
 Identify top-performing products & customers
 
@@ -62,6 +62,6 @@ Monitor profit trends across categories
 
 Support decision-making with data-driven insights
 
-🏆 Outcome
+**🏆 Outcome**
 
 This dashboard enables businesses to monitor KPIs effectively, improve sales strategy, and enhance decision-making capabilities with real-time insights.
