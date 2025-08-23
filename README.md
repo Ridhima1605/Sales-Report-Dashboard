@@ -1,5 +1,6 @@
 📊 Sales Report Dashboard
 ---
+---
 📌 Overview
 
 This project presents an interactive Power BI dashboard built to analyze sales data and uncover meaningful business insights. The dashboard enables tracking of sales, profit, and quantity performance, highlights top products and customers, and provides a clear view of trends across regions, categories, and time periods.
